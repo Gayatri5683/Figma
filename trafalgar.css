@@ -85,18 +85,13 @@ body{
     border: 2px solid black;
 } */
 
-.page{
-    border: 2px solid blue;
-}
+
 
 .second-1 h1{
     margin-bottom: 10px;
 }
 
 
-.last_page{
-    border: 2px solid red;
-}
 @media (max-width: 768px) {
 
 
@@ -239,13 +234,16 @@ body{
     /* height: 195px;*/
     }
 
+    .page .page5{
+        padding: 65px 15%;
+    }
 
     .page .page5 .dotted1{
         display: none;
        }
 
        .page .page5 .box_container{
-        height: 260px;
+        height: 209px;
         max-width: 100%;
        }
       .page .page5 .box_container .h4{
@@ -253,34 +251,39 @@ body{
       }
 
       .page .page5 .box_container hr{
-        width: 45px;
-    margin-left: 237px;
-    margin-top: -20px;
+        /* width: 45%;
+        text-align: center;
+        justify-content: center; */
+   /*  margin-left: 237px; */
+   margin-left: 43%;
+   width: 44px;
+   margin-top: -18px;
       }
 
       .page .page5 .box_container .photo{
-        height: 75px;
-    width: 75px;
-    margin-left: 21px;
+        height: 50px;
+        width: 50px;
+        margin-left: 0px;
       }
 
       .page .page5 .box_container .topic{
-        margin-left: 120px;
-    margin-top: -70px;
-    font-size: 18px;
+        margin-left: 61px;
+        margin-top: -44px;
+        font-size: 13px;
       }
 
       .page .page5 .box_container .sub_topic{
-    margin-left: 120px;
-    margin-top: -13px;
+        margin-left: 62px;
+        margin-top: -17px;
+        font-size: 11px;
 
       }
 
       .page .page5 .box_container .right_content{
-        font-size: 14px;
-    line-height: 16px;
-    margin-left: 333px;
-    margin-top: -94px;
+        font-size: 7px;
+        line-height: 12px;
+        margin-left: 187px;
+        margin-top: -75px;
       }
 
       .page .page5 .dotted2{
@@ -303,10 +306,9 @@ body{
         font-size: 16px;
       }
 
-      .page .page6 .doctor hr{
-        width: 44px;
-        /* margin-top: -18px; */
-      }
+       /* .page .page6 .doctor hr{
+
+       } */
 
       .page .page6 .block{
         margin-top: 50px;
@@ -347,10 +349,10 @@ body{
         
       }
 
-      .page .last_page .second{
+     /*  .page .last_page .second{ */
         /* margin-left: 100px; */
         /* text-align: center; */
-     }
+    /*  } */
 
      .page .last_page .ref li a{
         margin-left: 0px;
@@ -388,29 +390,20 @@ body{
 
 
  .main-page-3{
-    border: 1px solid blue;
     display: flex;
     justify-content: center;
     align-items: center;
  }
- .page4{
-    border: 1px solid red;
-   
- }
+ 
  .right{
-    border: 1px solid blue ;
     display: flex;
     gap: 20px;
     
  }
 
- .right_img{
-    border: 1px solid blue;
-    /* width: 90%; */
- }
+ 
 
  .main-page-4{
-    border: 1px solid blue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -418,15 +411,11 @@ body{
  }
 
  .page3{
-
-    border: 1px solid red;
     width: 1079px;
 
  }
 
  .page4{
-
-    border: 1px solid red;
     width: 1079px;
 
  }
@@ -662,20 +651,13 @@ a, a.visited{
 } 
 
 
-.card_grid{
-    border: 1px solid black;
-}
-
 .main-card-container{
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.card_container{
-    border: 2px solid red;
-}
+
 @media (max-width: 768px){
     .card_grid{
         padding: 20px 15px;
@@ -920,15 +902,11 @@ a, a.visited{
 
 
 .left{
-    /* position: relative; */
-   /*  margin-left: 70px; */
-   border: 1px solid red;
    width: 40%;
 }
 .left_img{
     /* padding-left: 4rem; */
     max-width: 650px;
-    border: 1px solid blue;
     width: 55%;
 }
 
@@ -1059,16 +1037,15 @@ a, a.visited{
   /* font-weight: <weight>; */
   font-style: normal; 
     line-height: 32px;
-    border: 1px solid red;
 }
 
-.right_img img{
+/* .right_img img{ */
     
     /* margin-left: 470px;
     margin-top: -330px; */
     /* flex-wrap: wrap-reverse; */
     
-}
+/* } */
 .page4 .right_para .h3{
     font-size: 36px;
     font-family: "Mulish", serif;
@@ -1125,9 +1102,7 @@ a, a.visited{
     display: flex;
     align-items: center;
     flex-wrap: wrap-reverse;
-    padding: 75px 10%;
-    margin-top: 200px;
-    
+    padding: 75px 10%;   
 }
 
 /* @media (max-width:768px){
@@ -1170,8 +1145,9 @@ a, a.visited{
 }
 .page5 .box_container hr{
     width: 60px;
+    margin-left: 47%;
     text-align: center;
-    margin-top: -30px;
+    margin-top: -14px;
 }
 
 .page5 .box_container .photo{
@@ -1215,7 +1191,7 @@ a, a.visited{
     font-weight: 300;
     font-size: 16px;
     line-height: 27px;
-    margin-left: 481px;
+    margin-left: 500px;
     margin-top: -100px;
 }
 
@@ -1291,7 +1267,8 @@ a, a.visited{
     margin-top: -10px; */
 
 text-align: center;
-    width: 50px;
+width: 50px;
+margin-left: 50%;
     height: 0;
     margin-top: 18px;
     border: solid black 1.5px ;
